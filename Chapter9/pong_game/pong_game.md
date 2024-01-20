@@ -168,6 +168,8 @@ y += dy;
 
 条件のうち、`(x - r <= racketCenterX && racketCenterX <= x + r)` とは、ラケットの中心がボール内部に入ったときという条件であり、`(racketCenterY - racketSize <= y + r && y - r <= racketCenterY + racketSize)`とはボールの上下がラケットの内部にあるときという条件です。
 
+### ソースコード例
+https://github.com/KoCSience/p5codeschool-samples/blob/master/Chapter9/pong_game/pong_game.pde
 ## 引用
 
 名古屋工業大学 情報工学科 2020年後期 コンピュータ入門(5605) 第9回
